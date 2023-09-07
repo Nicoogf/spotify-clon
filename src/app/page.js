@@ -14,7 +14,7 @@ export default function Home() {
       <link rel="icon" href='./favicon.ico' />
     </Head>
 
-    <div className='bg-spotify-black min-h-screen text-gray-300'>
+    <div className='bg-spotify-gray min-h-screen text-gray-300'>
         <Header />
         <SideBar />
         <main>

@@ -5,7 +5,7 @@ import { RiHome4Fill , RiSearchLine ,RiFoldersLine  , RiAddBoxLine , RiHeartFill
 
 export default function SideBar() {
   return (
-    <div className='bg-black fixed top-0 left-0 w-64 h-full p-6'>
+    <div className='bg-black fixed top-0 left-0 w-64 h-full p-6 flex flex-col justify-between'>
       <div>
         <div className='mt-4 mb-8'>
           <Image 
@@ -47,6 +47,19 @@ export default function SideBar() {
               </Link>
             </li>
 
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <nav>
+          <ul className='flex flex-col gap-y-2'>
+            <li> 
+              <Link href="#"className='text-xs hover:underline'>Cookies</Link>
+            </li>
+            <li> 
+              <Link href="#"className='text-xs hover:underline'>Privacidad</Link>
+            </li>
           </ul>
         </nav>
       </div>
