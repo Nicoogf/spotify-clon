@@ -1,18 +1,28 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '@/components/Header' ;
 import SideBar from '@/components/SideBar';
 
 export default function Home() {
   return (
-    <main className="">
-        <h1 className='bg-red-100'>
-          Inicio
-        </h1>
+
+    <>
+    <Head>
+      <title>Replica de Spotify</title>
+      <meta name="Description" content='Replica de Practica - Spotify'></meta>
+      <link rel="icon" href='./favicon.ico' />
+    </Head>
+
+    <div className='bg-spotify-black min-h-screen text-gray-300'>
         <Header />
         <SideBar />
-
-
-    </main>
+        <main>
+          <h1 className=""> Hola mundo </h1>  
+        </main>
+             
+    </div>
+    </>
+    
   )
 }
