@@ -1,11 +1,20 @@
-import React from 'react' ;
+import React  from 'react' ;
 import Link from "next/link" ;
 import Image from 'next/image';
-import { RiHome4Fill , RiSearchLine ,RiFoldersLine  , RiAddBoxLine , RiHeartFill} from "react-icons/ri" 
+import { RiHome4Fill , RiSearchLine ,RiFoldersLine  , RiAddBoxLine , RiHeartFill , RiCloseLine} from "react-icons/ri" 
 
-export default function SideBar() {
+export default function SideBar( props ) {
+
+  const { showSidebar , setShowSidebar} = props ;
+ 
   return (
-    <div className='bg-black fixed top-0 left-0 w-64 h-full p-6 flex flex-col justify-between'>
+    <div className={`bg-black fixed top-0  w-64 h-full p-6 flex flex-col justify-between 
+        ${ showSidebar ? 'left-0' : '-left-full'}  md:left-0 transition-all duration-300`}>
+
+      <div className='md:hidden absolute right-4 top-4 '>
+         <RiCloseLine onClick={ () => setShowSidebar( false )} className='text-2xl p-2 box-content cursor-pointer'/>
+      </div>        
+
       <div>
         <div className='mt-4 mb-8'>
           <Image 
@@ -15,7 +24,7 @@ export default function SideBar() {
           height={130}/>          
         </div>
         <nav>
-          <ul className='flex flex-col gap-y-4'>
+          <ul className='flex flex-col gap-y-2'>
 
             <li>
               <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors'> 
