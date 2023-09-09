@@ -16,7 +16,8 @@ module.exports = {
         spotify:{
         green : "#1DB954",       
         gray  : "#101010",
-        lightgray : "#1d1d1d"        
+        lightgray : "#1d1d1d" ,
+        lightgrayHover : "#282828"        
       },
     },
   },
