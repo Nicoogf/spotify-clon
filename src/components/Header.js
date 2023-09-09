@@ -9,7 +9,7 @@ const Header = ( props ) => {
 
 
   return (
-    <header className='fixed left-0 top-0 w-full md:ml-64 md:w-[calc(100%-256px)] bg-spotify-lightgray flex items-center justify-between p-4'>
+    <header className='fixed left-0 top-0 w-full md:ml-64 md:w-[calc(100%-256px)] bg-spotify-lightgray flex items-center justify-between p-4 z-40'>
 
       <div className='md:hidden'>
 

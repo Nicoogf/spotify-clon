@@ -9,7 +9,7 @@ export default function SideBar( props ) {
  
   return (
     <div className={`bg-black fixed top-0  w-64 h-full p-6 flex flex-col justify-between 
-        ${ showSidebar ? 'left-0' : '-left-full'}  md:left-0 transition-all duration-300`}>
+        ${ showSidebar ? 'left-0' : '-left-full'}  md:left-0 transition-all duration-300 z-50`}>
 
       <div className='md:hidden absolute right-4 top-4 '>
          <RiCloseLine onClick={ () => setShowSidebar( false )} className='text-2xl p-2 box-content cursor-pointer'/>

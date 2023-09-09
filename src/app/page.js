@@ -20,8 +20,11 @@ export default function Home() {
       <div className='bg-spotify-gray min-h-screen text-gray-300'>
           <Header setShowSidebar={ setShowSidebar }/>
           <SideBar showSidebar={ showSidebar } setShowSidebar={ setShowSidebar }/>
-          <div className='pt-28 pl-72 pr-8'>
+          <div className='pt-28 md:pl-72 p-8'>
            <ListAlbums title="Spotify Playlist"></ListAlbums>
+           <ListAlbums title="Rock Nacional"></ListAlbums>
+           <ListAlbums title="Top 50"></ListAlbums>
+           <ListAlbums title="Nuevos Lanzamientos"></ListAlbums>
           </div>
           
         
