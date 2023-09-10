@@ -9,7 +9,7 @@ const Header = ( props ) => {
 
 
   return (
-    <header className='fixed left-0 top-0 w-full md:ml-64 md:w-[calc(100%-256px)] bg-spotify-lightgray flex items-center justify-between p-4 z-40'>
+    <header className='fixed left-0 top-0 w-full md:ml-64 md:w-[calc(100%-256px)] bg-[#0A0A0A]/90 flex items-center justify-between p-4 z-40 opacity-90'>
 
       <div className='md:hidden'>
 
@@ -18,9 +18,9 @@ const Header = ( props ) => {
 
       </div>
 
-      <div className='hidden md:flex items-center text-3xl '>
-              <RiArrowLeftSLine className='p-2 box-content cursor-pointer'/>
-              <RiArrowRightSLine className='p-2 box-content cursor-pointer'/>
+      <div className='hidden md:flex items-center text-2xl gap-x-2'>
+              <RiArrowLeftSLine className='p-1 box-content cursor-pointer bg-spotify-gray rounded-full'/>
+              <RiArrowRightSLine className='p-1 box-content cursor-pointer bg-spotify-gray rounded-full'/>
       </div>
 
       <div className='flex items-center gap-6'>

@@ -1,7 +1,8 @@
 import React  from 'react' ;
 import Link from "next/link" ;
 import Image from 'next/image';
-import { RiHome4Fill , RiSearchLine ,RiFoldersLine  , RiAddBoxLine , RiHeartFill , RiCloseLine} from "react-icons/ri" 
+import { RiHome4Fill , RiSearchLine ,RiFoldersLine  , RiAddBoxLine , RiHeartFill , RiCloseLine} from "react-icons/ri" ;
+import { IoMdAdd } from "react-icons/io" ;
 
 export default function SideBar( props ) {
 
@@ -27,32 +28,32 @@ export default function SideBar( props ) {
           <ul className='flex flex-col gap-y-2'>
 
             <li>
-              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors'> 
+              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors font-semibold'> 
                 <RiHome4Fill  className='text-2xl'/> Inicio 
               </Link>
             </li>
 
             <li>
-              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors'> 
+              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors font-semibold'> 
                 <RiSearchLine  className='text-2xl'/> Buscar 
               </Link>
             </li>
 
             <li className='mb-8'>
-              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors'> 
+              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors font-semibold'> 
                 <RiFoldersLine  className='text-2xl'/> Tu Biblioteca 
               </Link>
             </li>
 
             <li>
-              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors'> 
-                <RiAddBoxLine  className='text-2xl'/> Crear Playlist
+              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors font-semibold'> 
+                <IoMdAdd  className='text-2xl bg-gray-400 text-black rounded-sm text-md p-1'/> Crear Playlist
               </Link>
             </li>
 
             <li>
-              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors'> 
-                <RiHeartFill  className='text-2xl'/> Tus me gusta
+              <Link href='#' className='flex items-center gap-4 hover:text-gray-100 transition-colors font-semibold'> 
+                <RiHeartFill  className='p-1 rounded-sm text-2xl bg-gradient-to-r from-indigo-600 via-purple-500 to-indigo-300'/> Tus me gusta
               </Link>
             </li>
 
