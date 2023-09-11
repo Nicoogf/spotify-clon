@@ -87,7 +87,7 @@ export default function Home() {
     {
       titulo: 'El viejo de Arriba',
       descripcion: 'Bersuit Vergarabat',
-      imagenSrc: 'https://i.discogs.com/cEl5AGomxMSPpilAwTufvzz-uD4mSclNjwhiZEiZS3M/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MjI4/MTY0LTE2NjA3NDAy/NDYtMzI0OC5qcGVn.jpeg',
+      imagenSrc: 'https://http2.mlstatic.com/D_NQ_NP_691720-MLA54597780820_032023-O.webp',
     },
    
   ];

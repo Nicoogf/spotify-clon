@@ -28,7 +28,7 @@ const nextConfig = {
                  "lastfm.freetls.fastly.net" ,
                  "encrypted-tbn0.gstatic.com",
                  "thisis-images.scdn.co",
-                 "thisis-images.scdn.co" 
+                 "http2.mlstatic.com"
                 ]
     }
 }
