@@ -30,7 +30,7 @@ const ListAlbums = ( props ) => {
             />
           ))
         ) : (
-          <p>No hay datos de tarjetas disponibles...</p>
+          <p>No hay datos de tarjetas disponibles en este momento...</p>
         )}     
      
         </div>
