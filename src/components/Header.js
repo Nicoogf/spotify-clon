@@ -24,7 +24,7 @@ const Header = ( props ) => {
       </div>
 
       <div className='flex items-center gap-6'>
-        <Link href="#" className='hover:text-white transition-colors'>Registro</Link>
+        <Link href="#" className='hover:text-white transition-colors'>Registrarme</Link>
         <Link href="#" className='py-2 md:py-3 px-4  rounded-full bg-gray-200 text-spotify-gray font-medium hover:scale-105 transition-transform'>Iniciar Sesion</Link>
       </div>
 
